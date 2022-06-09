@@ -37,7 +37,7 @@
   }
 
 .jumbotron{
-    padding: 70px 50px;
+    padding: 50px 50px;
     background-color: white;
 }
 
@@ -82,6 +82,7 @@ form.search-container input[type=text] {
   .search-container{
       display: flex;
       justify-content: flex-end;
+      margin-top: 15px;
   }
   /* end search */
 
@@ -107,9 +108,28 @@ form.search-container input[type=text] {
 
 /* css carousel */
 .carousel-inner{
-  height: auto;
-  width: 99%;
+  width: 100%;
 }
+
+/* css swiper */
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide{
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.img_box{
+  display: flex;
+  align-items: center;
+}
+
+
+
 
 
 
