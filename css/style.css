@@ -237,6 +237,26 @@ input[type=text] {
   display: none;
  }
 
+ .header__notify::before{
+  content: "";
+  border-width: 20px 20px;
+  border-style:  solid;
+  border-color: transparent transparent white transparent;
+  position: absolute;
+  left: 30px;
+  top: -40px;
+ }
+
+ .header__notify::after{
+  content: "";
+  display: block;
+  position: absolute;
+  left  : 0;
+  top: -25px;
+  width: 200px;
+  height: 20px;
+ }
+
  @keyframes headerNotifyGrowth {
   from{
     opacity: 0;
